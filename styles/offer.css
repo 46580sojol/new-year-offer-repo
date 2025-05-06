@@ -21,18 +21,18 @@
 
 
 .banner-contant{
-    
     height: 600px;
-    
-    background-image: linear-gradient(0.00deg, rgb(9, 9, 9) 3.482%,rgba(16, 16, 16, 0) 91.632%),  url(../images/Banner\ Image.png);
+    background-image:url(../images/Banner\ Image.png);
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    border-radius: 16px ;
-    background-color: #ca1a1a;
+    background-position:center;
+    background-size: 1200px 600px;
+    margin-top: 20px;
     
     
-    /* margin: 10px 100px;  */
+    
+    
+  
+   
   } 
   
 
@@ -91,4 +91,63 @@
  img{
   width: 602px;
   height: 400px;
+}
+/* section 2 banner style  */
+.welcome-contant{
+  height: 600px;
+  display: flex;
+  border-radius: 16px;
+
+  background-image: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url(../images/Vectorrr.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1200px 600px;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+padding-bottom: 50px;
+}
+.banner-div2{
+  width: 990px;
+  height: 500px;
+  padding-left: 200px;
+}
+.welcome-img{
+  width:350px;
+  height: 500px;
+  padding-right: 200px;
+}
+.welcome-img img{
+  margin-top: 40px;
+  width: 350px;
+  height: 500px;
+}
+.welcome-titel{
+  /* width: 700px; */
+  color: rgb(255, 255, 255);
+font-size: 64px;
+font-weight: 900;
+text-align: left;
+padding-top: 100px;
+}
+.welcome-gretting{
+  
+  color: rgba(255, 255, 255, 0.8);
+
+font-size: 18px;
+font-weight: 400;
+
+letter-spacing: 0%;
+text-align: left;
+padding-top: 30px;
+}
+.btn-primary{
+  color: rgba(245, 236, 236, 0.938);
+
+font-size: 20px;
+font-weight: 700;
+text-align: center;
+text-transform: uppercase;
+margin-top: 40px;
+background: transparent;
 }
