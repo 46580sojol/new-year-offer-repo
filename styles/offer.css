@@ -8,7 +8,9 @@
   .text-center{
     text-align: center;
   }
-
+.share-style{
+  color: crimson;
+}
 
 *{
   margin: 0;
@@ -22,16 +24,11 @@
 
 .banner-contant{
     height: 600px;
-    background-image:url(../images/Banner\ Image.png);
+    background-image:linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),url(../images/Banner\ Image.png);
     background-repeat: no-repeat;
     background-position:center;
     background-size: 1200px 600px;
     margin-top: 20px;
-    
-    
-    
-    
-  
    
   } 
   
@@ -60,12 +57,7 @@
 
 }
 /* section style */
-.section-offer{
-  
-  
-  
-  
-}
+
 .section-contant{
   text-align: center;
   margin-top: 50px;
@@ -94,11 +86,12 @@
 }
 /* section 2 banner style  */
 .welcome-contant{
+  padding-top: 100px;
   height: 600px;
   display: flex;
   border-radius: 16px;
 
-  background-image: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url(../images/Vectorrr.png);
+  background-image:linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),url(../images/Vectorrr.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 1200px 600px;
@@ -118,7 +111,7 @@ padding-bottom: 50px;
   padding-right: 200px;
 }
 .welcome-img img{
-  margin-top: 40px;
+  margin-bottom: 50px;
   width: 350px;
   height: 500px;
 }
@@ -150,4 +143,116 @@ text-align: center;
 text-transform: uppercase;
 margin-top: 40px;
 background: transparent;
+}
+/* place section style */
+.place-section{
+  height: 500px;
+   background-color: #e7f3da;
+   
+   margin: 50px 200px;
+   border-radius: 10px 10px;
+   background-position: center;
+
+  
+}
+.place-contant{
+ 
+  text-align: center;
+  margin: 10px auto;
+  padding-top: 160px;
+  
+}
+.address{
+  padding-bottom: 30px;
+}
+.time{
+  padding-bottom: 30px;
+}
+.date{
+  padding-bottom: 30px;
+}
+.btn-secondary{
+  background-color: brown;
+  color: #60b105;
+  padding: 10px 10px;
+  font-weight: 700;
+  border-radius: 10px 10px ;
+}
+/* best offer style */
+
+
+.best-offer-container{
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+  gap: 50px;
+  margin: 10px 100px;
+  background-color: #e49aeb9c;
+  border-radius: 10px 10px;
+ 
+}
+.best-offer-div{
+  width: 300px;
+  height: 255px;
+  padding-left: 50px;
+}
+
+.best-offer-titel{
+  color: red;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: left;
+
+}
+.best-offer-sub{
+  color: black;
+  font-weight: 900;
+  font-size: 48px;
+  text-align: left;
+}
+.best-offer-gretting{
+  color: rgba(0, 0, 0, 0.589);
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
+  padding-top: 40px;
+}
+
+.happy-div{
+  box-sizing:border-box;
+border: 15px solid rgb(255, 0, 0);
+width: 300px;
+height: 300px;
+border-radius: 150px 150px;
+
+
+}
+.happy-img{
+  width: 270px;
+  height: 270px;
+
+
+}
+.new-year-div{
+  width: 276px;
+
+}
+.year-titel{
+  font-size: 48px;
+  font-weight: 700;
+  color: red;
+  text-align: left;
+}
+.year-gretting{
+  color: black;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
+}
+.year-img{
+  padding-top: 20px;
+  width: 140px;
+  height: 140px;
+ 
 }
