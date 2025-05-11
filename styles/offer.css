@@ -147,7 +147,7 @@ background: transparent;
 /* place section style */
 .place-section{
   height: 500px;
-   background-color: #e7f3da;
+   background-color: #faf2f2;
    
    margin: 50px 200px;
    border-radius: 10px 10px;
@@ -164,15 +164,18 @@ background: transparent;
 }
 .address{
   padding-bottom: 30px;
+  color: rgb(12, 105, 105);
 }
 .time{
   padding-bottom: 30px;
+  color: rgb(24, 131, 131);
 }
 .date{
   padding-bottom: 30px;
+  color: rgb(16, 133, 133);
 }
 .btn-secondary{
-  background-color: brown;
+  background-color: rgb(148, 192, 181);
   color: #60b105;
   padding: 10px 10px;
   font-weight: 700;
