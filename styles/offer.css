@@ -350,11 +350,61 @@ text-align: center;
   font-weight: 700;
 }
 .pro-greeting{
-  color: #4b5e36;
+  color: #c6dab1;
   font-size: 20px;
   font-weight: 400;
   width: 600px;
   padding-bottom: 20px;
   
+
+}
+/* end-section style */
+.end-section{
+  height: 600px;
+margin: 20px 100px;
+text-align: center;
+background-color: #e8ebe5;
+border-radius: 10px ;
+
+}
+ .gmail-img{
+  width: 150px;
+  height: 150px;
+  padding-top: 80px;
+
+}
+
+.end-titel{
+  color: black;
+  font-size: 48px;
+  font-weight: 700;
+  padding-top: 30px;
+}
+.end-gretting{
+  color: #4b5e36;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 20px 200px;
+
+}
+input[type=text]{
+  background-color: #60b105;
+  font-size: large;
+  border-radius: 10px;
+  color: red;
+  border: none;
+  /* padding-top: 20px; */
+  margin-top: 10px ;
+  box-shadow: 2px 2px 2px red;
+
+}
+.btn-end{
+  border-radius: 10px;
+font-size: large;  
+background-color: red;
+color: #60b105;
+border: none;
+  /* padding-top: 20px; */
+  box-shadow: 2px 2px 2px rgb(6, 158, 26);
 
 }
