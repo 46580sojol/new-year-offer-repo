@@ -363,7 +363,7 @@ text-align: center;
   height: 600px;
 margin: 20px 100px;
 text-align: center;
-background-color: #e8ebe5;
+background-color: #fafdf6;
 border-radius: 10px ;
 
 }
@@ -388,12 +388,13 @@ border-radius: 10px ;
 
 }
 input[type=text]{
-  background-color: #60b105;
+  background-color: #0c0b0c;
   font-size: large;
   border-radius: 10px;
+  background: transparent;
   color: red;
   border: none;
-  /* padding-top: 20px; */
+  padding-left: 10px;
   margin-top: 10px ;
   box-shadow: 2px 2px 2px red;
 
@@ -401,10 +402,67 @@ input[type=text]{
 .btn-end{
   border-radius: 10px;
 font-size: large;  
-background-color: red;
+background-color: rgb(24, 15, 15);
 color: #60b105;
 border: none;
   /* padding-top: 20px; */
   box-shadow: 2px 2px 2px rgb(6, 158, 26);
 
+}
+/* footer design  */
+.foot{
+  background-color: #0c0b0c;
+}
+.last{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  padding: 10px 150px;
+  color: #e8ebe5;
+
+}
+.add-ress{
+  color: #60b105;
+  font-size: 20px;
+}
+.icon-web{
+  display: flex;
+}
+.icon-web>img{
+  width: 25px;
+  height: 25px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+.icon-web> .contact{
+  color: #60b105;
+  /* background-color: #c6dab1; */
+  font-size: 25px;
+  padding-top: 15px;
+}
+.icon{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  gap: 20px;
+  padding: 30px;
+  border-top:2px solid #22271c;
+  border-bottom:2px solid #191b16 ;
+  margin:0px 150px;
+
+ 
+}
+.icon>img{
+  width: 50px;
+  height: 50px;
+  
+}
+.rights{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 150px;
+}
+.right{
+  color: #e8ebe5;
 }
